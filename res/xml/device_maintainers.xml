@@ -152,15 +152,26 @@
         android:id="@+id/device_category_google"
         android:title="@string/device_category_google_title">
 
-        <!--<Preference
+        <Preference
+            android:id="@+id/device_walleye"
+            android:icon="@drawable/havoc_device"
+            android:summary="@string/device_walleye_summary"
+            android:title="@string/device_walleye" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/bravesoul349" />
+        </Preference>
+
+
+        <Preference
             android:id="@+id/device_taimen"
             android:icon="@drawable/havoc_device"
             android:summary="@string/device_taimen_summary"
             android:title="@string/device_taimen" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/steveproski" />
-        </Preference>-->
+                android:data="https://t.me/bravesoul349" />
+        </Preference>
 
         <Preference
             android:id="@+id/device_blueline"
@@ -361,6 +372,17 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/shank03" />
         </Preference>
+
+        <Preference
+            android:id="@+id/device_maple"
+            android:icon="@drawable/havoc_device"
+            android:summary="@string/device_maple_summary"
+            android:title="@string/device_maple">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/shujath" />
+        </Preference>
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -441,6 +463,17 @@
     <PreferenceCategory
         android:id="@+id/device_category_xiaomi"
         android:title="@string/device_category_xiaomi_title">
+
+        <Preference
+            android:id="@+id/device_juice"
+            android:icon="@drawable/havoc_device"
+            android:summary="@string/device_juice_summary"
+            android:title="@string/device_juice" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/el_senyor" />
+        </Preference>
+
 
         <!--<Preference
             android:id="@+id/device_cancro"
@@ -820,7 +853,7 @@
             android:title="@string/device_lavender">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/Genkzsz11" />
+                android:data="https://t.me/Hazama25" />
         </Preference>
 
         <Preference
@@ -992,6 +1025,7 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/TH3_GUNN3R" />
         </Preference>
+
 
         <Preference
             android:id="@+id/device_RMX1921"
