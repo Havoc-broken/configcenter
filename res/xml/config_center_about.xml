@@ -32,6 +32,15 @@
         </Preference>
 
         <Preference
+            android:title="Sukeeerat SG (Iron)"
+            android:summary="A snowball getting bigger"
+            android:icon="@drawable/havoc_developer">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.paypal.me/irongfly"/>
+        </Preference>
+
+        <Preference
             android:title="Tushar Jain (theoj22)"
             android:summary="@string/havoc_support_tushar"
             android:icon="@drawable/havoc_support"/>
